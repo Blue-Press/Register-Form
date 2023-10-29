@@ -1,0 +1,106 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.contentContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.leftContainer {
+  flex-basis: 33%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftLogoHeader {
+  color: white;
+  margin-bottom: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+}
+
+.rightContainer {
+  flex-basis: 67%;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.rightParagraph {
+    margin-left: 5%;
+    margin-bottom: 10%;
+    width: 60%;
+    font-size: large;
+}
+
+.formContainer {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.registerForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-wrapper {
+  background-color: aqua;
+  padding-bottom: 3%;
+  width: 100%;
+}
+
+.registerForm h1 {
+  margin-left: 5%;
+}
+
+.registerForm section {
+  display: flex;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+
+.input-wrapper label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-wrapper input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.registerForm button {
+  margin-top: 2%;
+  width: 20%;
+  height: 10%;
+  margin-left: 5%;
+  font-size: larger;
+}
+
+.logInText {
+  margin-left: 5%;
+  margin-top: 2%;
+}

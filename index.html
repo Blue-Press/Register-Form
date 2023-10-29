@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <script src="assets/js/script.js"></script>
+  <div class="contentContainer">
+    <div class="leftContainer">
+      <div class="leftLogoHeader">
+        <p>Corporation</p>
+        <img src="assets/images/logo.png" />
+      </div>
+    </div>
+    <div class="rightContainer">
+    <p class="rightParagraph">
+    Esistono innumerevoli variazioni dei passaggi del Lorem Ipsum, ma la maggior 
+    parte hanno subito delle variazioni del tempo, a causa dell inserimento di Se si decide di utilizzare <br><br>passagg
+    i ironici
+    </p>
+    <div class="formContainer">
+        <form class="registerForm" id="registerForm">
+            <div class="background-wrapper">
+            <h1>Sign Up Now!</h1>
+          <section>
+            <div class="input-wrapper">
+              <label for="firstNameInput">First Name:</label>
+              <input type="text" class="firstNameInput" required />
+            </div>
+            <div class="input-wrapper">
+              <label for="lastNameInput">Last Name:</label>
+              <input type="text" class="lastNameInput" required />
+            </div>
+          </section>
+          <section>
+            <div class="input-wrapper">
+              <label for="phoneNumberInput">Phone Number:</label>
+              <input type="text" class="lastNameInput" inputmode="numeric" minlength="10" maxlength="10" required />
+            </div>
+            <div class="input-wrapper">
+              <label for="emailInput">Email Address:</label>
+              <input type="email" class="emailInput" required />
+            </div>
+          </section>
+          <section>
+            <div class="input-wrapper">
+              <label for="passwordInput">Password:</label>
+              <input type="password" class="passwordInput" />
+            </div>
+            <div class="input-wrapper">
+              <label for="confirmPasswordInput">Confirm Password:</label>
+              <input type="password" class="passInput" />
+            </div>
+          </section>
+        </div>
+          <button type="submit" class="createActBtn">Create Account</button>
+        </form>
+      </div>
+      <p class="logInText">Already have an account? <a href="#"">Log In</a> </p>
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
