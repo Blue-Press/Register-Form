@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 :root {
   --blue-green: #3393b7;
   --isabelline: #f1ecec;
@@ -35,6 +38,7 @@ body {
   background-color: rgba(0, 0, 0, 0.795);
   width: 100%;
   font-size: 400%;
+  font-family: 'Playfair Display', serif;
 }
 
 .leftLogoHeader img {
@@ -49,6 +53,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  font-family: 'Lora', serif;
 }
 
 .rightParagraph {
