@@ -20,7 +20,7 @@ body {
 
 .leftContainer {
   flex: 2;
-  background-image: url(/assets/images/background.png);
+  background-image: url(https://i.imgur.com/rPuJ28z.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
