@@ -1,3 +1,8 @@
+:root {
+  --blue-green: #3393b7;
+  --isabelline: #f1ecec;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -11,7 +16,7 @@ body {
 }
 
 .leftContainer {
-  flex-basis: 33%;
+  flex: 2;
   background-image: url(/assets/images/background.png);
   background-size: cover;
   display: flex;
@@ -21,18 +26,25 @@ body {
 }
 
 .leftLogoHeader {
-  color: white;
-  margin-bottom: 40%;
+  margin-top: -16rem;
+  height: 20%;
+  color: var(--isabelline);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.795);
   width: 100%;
+  font-size: 400%;
+}
+
+.leftLogoHeader img {
+  width: 30%;
+  height: 75%;
 }
 
 .rightContainer {
-  flex-basis: 67%;
-  background-color: brown;
+  flex: 3;
+  background-color: var(--isabelline);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,10 +52,10 @@ body {
 }
 
 .rightParagraph {
-    margin-left: 5%;
-    margin-bottom: 10%;
-    width: 60%;
-    font-size: large;
+  margin-left: 5%;
+  margin-bottom: 7%;
+  width: 60%;
+  font-size: large;
 }
 
 .formContainer {
@@ -51,22 +63,26 @@ body {
   height: 33%;
   display: flex;
   align-items: center;
+  color: black;
 }
 
 .registerForm {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 7%;
+  margin-top: 15%;
 }
 
 .background-wrapper {
-  background-color: aqua;
   padding-bottom: 3%;
   width: 100%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .registerForm h1 {
   margin-left: 5%;
+  margin-bottom: 3%;
 }
 
 .registerForm section {
@@ -93,15 +109,25 @@ body {
   box-sizing: border-box;
 }
 
-.registerForm button {
-  margin-top: 2%;
+.createActBtn {
+  margin-top: 3.5%;
   width: 20%;
-  height: 10%;
+  height: 60px;
   margin-left: 5%;
   font-size: larger;
+  font-weight: 500;
+  background-color: var(--blue-green);
+  color: var(--isabelline);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 10px;
 }
 
 .logInText {
   margin-left: 5%;
-  margin-top: 2%;
+}
+
+.logInText a {
+  text-decoration: underline;
+  color: inherit;
 }
