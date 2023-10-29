@@ -12,7 +12,8 @@ body {
 
 .leftContainer {
   flex-basis: 33%;
-  background-color: aqua;
+  background-image: url(/assets/images/background.png);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
